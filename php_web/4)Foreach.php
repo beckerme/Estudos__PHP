@@ -20,4 +20,4 @@ foreach($contasCorrentes as $id => $conta){
     // echo $nome . PHP_EOL;
 }
 
-//se quisermos adicionar um novo item com chave vaiza, por exemplo: $contasCorrentes [] [ 'titular' => 'Claudia', saldo => 932039 ] ao darmos echo a chave para esse item sera o proximo valor numerico disponível, se o arrat só conter string, sua chave sera igual a 0, que no caso é o proximo numero. PS:. Isso não acontece com listas simples, ao usarmos uma chave vazia em uma lista SIMPLES como $idade = [1, 2, 3, 4,...] para adicionar $idade[] = 40;, mandara o item 40 para o ultimo índice disponível.
+//se quisermos adicionar um novo item com chave vaiza, por exemplo: $contasCorrentes [] [ 'titular' => 'Claudia', saldo => 932039 ] ao darmos echo a chave para esse item sera o proximo valor numerico disponível, se o array só conter string, sua chave sera igual a 0, que no caso é o proximo numero. PS:. Isso não acontece com listas simples, ao usarmos uma chave vazia em uma lista SIMPLES como $idade = [1, 2, 3, 4,...] para adicionar $idade[] = 40;, mandara o item 40 para o ultimo índice disponível.

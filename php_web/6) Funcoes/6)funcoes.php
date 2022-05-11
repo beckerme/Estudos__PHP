@@ -10,7 +10,7 @@ function depositar(array $conta, float $valorADpositar) : array
     return $conta;
 }
 
-function sacar(array $conta, float $valorASacar)
+function sacar(array $conta, float $valorASacar) : array
 {
     if( $valorASacar > $conta['Saldo']){
         exibeMensagem(mensagem: "Você não pode sacar esse valor.");
